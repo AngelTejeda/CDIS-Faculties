@@ -1,0 +1,77 @@
+﻿.form {
+    margin: 30px auto;
+    padding: 5px;
+    background-color: #e6e6e6;
+}
+
+.inputContainer {
+    position: relative;
+    width: 95%;
+    margin: 15px auto;
+}
+
+:disabled {
+    background-color: #f7f7f7;
+    color: #ababab;
+}
+
+:disabled:hover {
+    cursor: not-allowed;
+}
+
+.formInput {
+    display: block;
+    width: 100%;
+    border: 1px solid #c3c3c3;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+.formValidation {
+    display: block;
+    color: red;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Button */
+.formInput[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+}
+
+.formInput[type=submit]:hover:not([disabled]) {
+    background-color: #0c8a5c;
+    cursor: pointer;
+}
+
+.formInput[type=submit]:active {
+    -webkit-box-shadow: inset 1px 1px 10px #333;
+    -moz-box-shadow: inset 1px 1px 10px #333;
+    box-shadow: inset 1px 1px 10px #333;
+}
+
+.chosen-container-single .chosen-single span {
+    display: block;
+    overflow: hidden;
+    margin-right: 26px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.chosen-container * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.chosen-disabled .chosen-single {
+    cursor: not-allowed;
+}

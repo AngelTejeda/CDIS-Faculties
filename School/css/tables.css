@@ -1,0 +1,51 @@
+﻿/* Table */
+.table {
+    border-collapse: collapse;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.table, th, td {
+    border: none;
+}
+
+.table thead {
+    border-bottom: 8px solid white;
+}
+
+.table thead th {
+    background: #b1b1b1;
+}
+
+.table th, td {
+    padding: 1em;
+    background: #ddd;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+/* Table Header */
+.table th:first-child {
+    border-radius: 1em 0 0 1em;
+}
+
+.table th:last-child {
+    border-radius: 0 1em 1em 0;
+}
+
+/* Table Body Round Corners */
+.table tbody tr:first-child td:first-child {
+    border-top-left-radius: 1em;
+}
+
+.table tbody tr:first-child td:last-child {
+    border-top-right-radius: 1em;
+}
+
+.table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 1em;
+}
+
+.table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 1em;
+}

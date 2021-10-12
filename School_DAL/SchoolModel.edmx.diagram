@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5700b5b40aad4b1bac92994def058c61" Name="Diagram1">
+        <EntityTypeShape EntityType="School_DAL.City" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.Country" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.Faculty" Width="1.5" PointX="7.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.FacultySubject" Width="1.5" PointX="9.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.State" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.Student" Width="1.5" PointX="9.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.Subject" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.University" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="School_DAL.User" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="School_DAL.FK_City_State" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_Faculty_City" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_State_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_Faculty_University" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_FacultySubject_Faculty" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_Student_Faculty" ManuallyRouted="false" />
+        <AssociationConnector Association="School_DAL.FK_FacultySubject_Subject" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

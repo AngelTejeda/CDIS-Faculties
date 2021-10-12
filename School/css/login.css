@@ -1,0 +1,28 @@
+﻿* {
+    font-family: Cambria;
+    font-size: 15px;
+}
+
+.form {
+    width: 40%;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image */
+#imgLogin {
+    content: url("../Images/login.png");
+    width: 150px;
+    margin: auto;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
